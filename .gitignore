@@ -1,0 +1,49 @@
+# Frontend dependencies and builds
+node_modules/
+dist/
+
+# Rust build output
+target/
+
+# Python virtual environment and cache
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+*.pyc
+
+# Environment variables and secrets
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Local AI models
+models/*
+!models/README.md
+
+# Compiled sidecar executables
+apps/desktop/src-tauri/binaries/*.exe
+
+# Local databases
+*.db
+*.db-wal
+*.db-shm
+
+# Application-generated files
+logs/
+recordings/
+screenshots/
+*.log
+
+# Test coverage
+coverage/
+.coverage
+htmlcov/
+
+# Python build output
+engine/build/
+
+# Windows-generated files
+Thumbs.db
+Desktop.ini
